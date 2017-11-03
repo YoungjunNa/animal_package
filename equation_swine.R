@@ -9,5 +9,7 @@
 
 #Noblet and Perez, 1993
 DE <- function(GE, ASH, NDF){
-  1161+(0.749*GE)-(4.3*ASH)-(4.1*NDF)
+  eq <- 1161+(0.749*GE)-(4.3*ASH)-(4.1*NDF)
+  print(eq)
+  print("kcal/kg")
 }
