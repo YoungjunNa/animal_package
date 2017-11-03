@@ -9,6 +9,7 @@
 
 #Ewan, 1989
 GE <- function(EE, CP, ASH){
-  4143+(56*EE)+(15*CP)-(44*ASH)
+  eq <- 4143+(56*EE)+(15*CP)-(44*ASH)
+  print(eq)
+  print("kcal/kg")
 }
-
